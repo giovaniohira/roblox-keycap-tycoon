@@ -1,0 +1,6 @@
+-- Cole isto na Command Bar do Studio (Edit mode, SEM Play), com Rojo Connected:
+--
+-- local MapWorld = require(game.ServerScriptService.MapWorld); MapWorld.rebuildWorld(workspace)
+--
+-- Depois: File → Save (grava Workspace.World no KeycapConveyor.rbxl).
+-- Daí o Main so faz bind — pode mexer no mapa no Explorer.

@@ -1,0 +1,39 @@
+{
+  "name": "KeycapConveyor",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Assets": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true
+      }
+    },
+    "ServerScriptService": {
+      "$path": "src/server"
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      }
+    },
+    "Workspace": {
+      "$ignoreUnknownInstances": true,
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Locked": true,
+          "Size": [800, 1, 520],
+          "Position": [0, -0.5, 0],
+          "Color": [0.357, 0.604, 0.298],
+          "Material": "Plastic",
+          "TopSurface": "Studs",
+          "BottomSurface": "Inlet"
+        }
+      }
+    }
+  }
+}
